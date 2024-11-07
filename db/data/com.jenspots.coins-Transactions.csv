@@ -1,0 +1,3 @@
+amountInCents,executedAt,description,category_ID,partner_ID
+1000000,2024-01-01,Salary of January,0,0
+500,2024-01-02,Food for the week,1,1
