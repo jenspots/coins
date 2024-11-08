@@ -1,5 +1,20 @@
 {
   "features": {
     "fiori_preview": true
+  },
+  "requires": {
+    "auth": {
+      "kind": "basic",
+      "users": {
+        "admin": {
+          "password": "admin",
+          "roles": ["Administrator"]
+        },
+        "none": {
+          "password": "none",
+          "roles": []
+        }
+      }
+    }
   }
 }
