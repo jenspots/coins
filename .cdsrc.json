@@ -18,5 +18,13 @@
         }
       }
     }
+  },
+  "[production]": {
+    "sql": {
+      "native_hana_associations": false
+    },
+    "requires": {
+      "db": "hana"
+    }
   }
 }
