@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@cap-js/cds-typer@>=0.1":
+  version "0.28.1"
+  resolved "https://registry.yarnpkg.com/@cap-js/cds-typer/-/cds-typer-0.28.1.tgz#40e5d0e034a0bb74b90d9a7f10c0ae2624156efc"
+  integrity sha512-hLpmWyqjPC6SvzSA/rPYs4kobrlvUvyfjm14BhuysewKzSD55JBq6dtvfWf0w+YeGCEhtb/yg1TlWI4JviBjGQ==
+
 "@cap-js/cds-types@^0.6":
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/@cap-js/cds-types/-/cds-types-0.6.5.tgz#5170efb47528e5b844af6569ff429b731fb564cb"
@@ -106,6 +111,13 @@
   integrity sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==
   dependencies:
     undici-types "~6.19.8"
+
+"@types/node@^20":
+  version "20.17.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.17.6.tgz#6e4073230c180d3579e8c60141f99efdf5df0081"
+  integrity sha512-VEI7OdvK2wP7XHnsuXbAJnEpEkF6NjSN45QJlL4VGqZSXsnicpesdTWsg9RISeSdYd3yeRj/y3k5KGjUXYnFwQ==
+  dependencies:
+    undici-types "~6.19.2"
 
 "@types/qs@*":
   version "6.9.17"
@@ -833,7 +845,12 @@ type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-undici-types@~6.19.8:
+typescript@^5:
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.3.tgz#5f3449e31c9d94febb17de03cc081dd56d81db5b"
+  integrity sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==
+
+undici-types@~6.19.2, undici-types@~6.19.8:
   version "6.19.8"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
   integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
