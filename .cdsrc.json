@@ -24,7 +24,8 @@
       "native_hana_associations": false
     },
     "requires": {
-      "db": "hana"
+      "db": "hana",
+      "auth": "xsuaa"
     }
   }
 }
