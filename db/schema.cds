@@ -1,11 +1,11 @@
-using { cuid } from '@sap/cds/common';
+using { cuid, managed } from '@sap/cds/common';
 
 namespace com.jenspots.coins;
 
 /**
  * A transaction represents a single purchase or income event.
  */
-define entity Transactions : cuid {
+define entity Transactions : cuid, managed {
   /** The amount expressed in cents. */
   amountInCents : Integer not null;
   /** When the transaction occurred. */
@@ -21,7 +21,7 @@ define entity Transactions : cuid {
 /**
  * All transactions are grouped into categories.
  */
-define entity TransactionCategories : cuid {
+define entity TransactionCategories : cuid, managed {
   /** The name of the category. */
   name : String not null;
   /** An optional description of the category. */
@@ -32,7 +32,7 @@ define entity TransactionCategories : cuid {
 }
 
 /** The entity at the other end of the transaction. */
-define entity Partners : cuid {
+define entity Partners : cuid, managed {
   /** The name of the partner. */
   name : String not null;
   /** An optional description of the category. */
